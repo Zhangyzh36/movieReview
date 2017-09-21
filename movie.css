@@ -1,0 +1,164 @@
+/*
+	author:张寅哲;
+	date:2017-09-21;
+*/
+
+body {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+#banner {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
+	height: 50px;
+	text-align: center;
+}	
+
+#mainpage {
+	
+	width: 800px;
+	border: 4px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	
+}
+
+#section1 {
+
+	float: right;
+	width: 250px;
+
+	background-color: #A2B964;
+
+
+}
+
+#section2 {
+	float: left;
+	width: 550px;
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+	height: 83px;
+}
+
+#section3 {
+	float: left;
+	width: 550px;
+	padding-top: 11px;
+}
+
+#section4 {
+	clear: right;
+} 
+
+#section4 p{
+	margin: 0px;
+	padding: 5px 0px;
+	text-align: center;
+	background-color: #A2B964;
+}
+
+#left
+{
+	float:left;
+	padding-left: 11px;
+	padding-right: 5.5px;
+	width: 47%;
+}
+
+#right {
+	float:right;
+	padding-left: 5.5px;
+	padding-right: 11px;
+	width: 47%;
+}
+
+.margins-removed {
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	padding: 10px;
+}
+
+.margins-removed dt {
+	font-weight: bold;
+}
+
+.margins-removed dd {
+	margin: 0 0 1em 4em;
+}
+
+.margins-removed dd#lastdef{
+	margin: 0 0 0 4em;
+}
+
+.review {
+	background-color: #E1D697;
+	border: 2px solid gray;
+	margin: 0;
+	padding: 8px;
+	font-size: 8pt;
+	font-weight: bold;
+
+}
+
+
+
+.review img {
+	float: left;
+	padding-right: 5px;
+}
+
+.review p {
+	min-height: 25px;
+	margin: 0;
+}
+
+.info {
+	padding: 8px 0 3em 0;
+}
+
+.info p{
+	margin: 0;
+	font-size: 8pt;
+	font-style: italic;
+	min-height: 33px;
+
+}
+
+.info img {
+	float: left;
+	padding-right: 5px;
+}
+
+
+#literal {
+	vertical-align: 100%;
+}
+
+#literal1 {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+#literal2 {
+	font-size: 8pt;
+	color: white;
+}
+
+#validator {
+	position: fixed;
+	bottom: 5px;
+	right: 0px;
+}
