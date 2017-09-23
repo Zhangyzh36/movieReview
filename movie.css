@@ -131,9 +131,13 @@ h1 {
 .info p{
 	margin: 0;
 	font-size: 8pt;
-	font-style: italic;
+	
 	min-height: 33px;
 
+}
+
+.emph {
+	font-style: italic;
 }
 
 .info img {
